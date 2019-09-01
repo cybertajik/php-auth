@@ -95,4 +95,5 @@ Open your php.ini and add 'extension=gnupg.so':
 ```bash
 extension=gnupg.so
 ```
-#### Done!
+#### To generate PGP Keys and test use https://sela.io/pgp/
+code improvements are welcome, haven't coded in a very long time so please dont judge me hard.
