@@ -24,7 +24,7 @@ class auth {
 		
 		$secret = generateSecretKey();
         
-		// Hash the secret with bcrypt
+		// Hash the secret with bcrypt. Argon2i is recommended!!!
 		
 		$secret_hash = password_hash($secret, PASSWORD_BCRYPT);
 		
